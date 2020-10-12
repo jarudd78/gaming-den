@@ -1,0 +1,65 @@
+body {
+  background-image:url('img/metroid.png');
+  background-repeat: no-repeat;
+  background-position: left-bottom;
+  background-size: 100% 100%;
+}
+h1 {
+  width: 100%;
+  color:white;
+  font-family: Lato;
+  font-size:50px;
+  text-align:center;
+  text-shadow: 1px 3px grey;
+  margin-left: 20px;
+}
+h2{
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  margin-top: 80px;
+  font-family: Lato;
+  margin-left: 20px;
+}
+table{
+  font-family: Lato;
+  border-collapse: collapse;
+  width: 60%;
+  text-align: center;
+  margin-top: 100px;
+}
+th{
+  font-size: 20px;
+  text-align: left;
+  padding-top: 40px;
+  padding: 8px;
+  background-color: #6bbe3042;
+}
+td{
+  font-size: 18px;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(odd){
+  background-color: #60af2793;
+}
+tr:nth-child(even){
+  color:hsl(33, 85%, 3%);
+  background-color:#cae8f291;
+}
+.container{
+  font-size: 24px;
+  color:#FFF;
+  text-align:center;
+  padding-top: 30px;
+}
+.footer{
+  color: rgb(246, 244, 244);
+  background-color: rgba(0, 0, 255, 0);
+  text-align: left;
+  position:fixed;
+  left:0;
+  bottom: 0;
+  width: 100%;
+  margin:0 0 0 10px;
+}
